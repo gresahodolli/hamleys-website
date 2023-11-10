@@ -1,0 +1,12 @@
+.nav-white-text {
+    color: white !important;
+  }
+
+  .navbar-custom:hover {
+    background-color: black !important;
+  }
+  
+  .navbar-custom:hover a {
+    color: white !important;
+  }
+  
