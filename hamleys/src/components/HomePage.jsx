@@ -4,8 +4,9 @@ import Hamleys1 from '../assets/Hamleys1.jpg';
 import Hamleys2 from '../assets/Hamleys2.jpg';
 
 function HomePage() {
+ 
   const imageStyle = {
-    margin:'100px',
+    margin:'30px',
     height: '600px',  
     width: '100%',    
     objectFit: 'cover',
