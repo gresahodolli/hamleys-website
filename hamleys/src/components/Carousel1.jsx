@@ -23,7 +23,7 @@ const CarouselComponent = () => {
   const containerStyle = {
     position: 'relative',
     backgroundColor: '#ddd',
-    padding: '20px',
+    padding: '10px',
   };
 
   const itemStyle = {
@@ -33,7 +33,7 @@ const CarouselComponent = () => {
   const textStyle = {
     textAlign: 'center',
     fontFamily: 'Arial, sans-serif',
-    fontSize: '25px',
+    fontSize: '20px',
     fontWeight: 'bold',
     margin: '20px',
   };
