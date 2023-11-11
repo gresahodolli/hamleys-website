@@ -10,6 +10,9 @@
     color: white !important;
   }
   
+
+
+
 h1 {
   text-align: center;
   font-family: 'Arial, sans-serif';
@@ -59,11 +62,34 @@ h3 {
   border: none;
   background: none;
   padding: 10px;
-  margin: 0 10px; /* Adjust the spacing between buttons */
+  margin: 0 10px; 
 }
 
 .image-button-img {
-  width: 300px; /* Adjust the width as needed */
-  height: auto; /* Maintain the aspect ratio */
-  margin-top: 40px; /* Adjust the spacing between image and button */
+  width: 300px; 
+  height: auto; 
+  margin-top: 40px; 
 }
+
+
+
+
+
+
+/* FavoriteCategories */
+
+
+.card {
+  padding: 20px;
+  width: 22rem;
+  display: inline-block;
+  margin: 10px; 
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
