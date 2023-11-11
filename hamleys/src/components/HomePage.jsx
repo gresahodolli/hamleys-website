@@ -3,6 +3,7 @@ import Hamleys from '../assets/Hamleys.webp';
 import Hamleys1 from '../assets/Hamleys1.jpg';
 import Hamleys2 from '../assets/Hamleys2.jpg';
 
+
 function HomePage() {
  
   const imageStyle = {
@@ -34,7 +35,7 @@ function HomePage() {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
-
+       
       </div>
     </div>
   );

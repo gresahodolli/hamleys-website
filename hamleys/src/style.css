@@ -49,3 +49,21 @@ h3 {
   background-color: white;
   color: red;
 }
+
+.image-buttons-container {
+  text-align: center; /* Center the inline-block elements horizontally */
+}
+
+.image-button {
+  display: inline-block;
+  border: none;
+  background: none;
+  padding: 10px;
+  margin: 0 10px; /* Adjust the spacing between buttons */
+}
+
+.image-button-img {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-top: 40px; /* Adjust the spacing between image and button */
+}

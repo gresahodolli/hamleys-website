@@ -4,6 +4,7 @@ import Navbar from './components/CustomNavbar'
 import HomePage from './components/HomePage'
 import CarouselComponent from './components/Carousel1'
 import MultipleToggles from './components/MultipleToggles'
+import ImageButtonsContainer from './components/ImageButtonsContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <CarouselComponent />
       <HomePage />
       <MultipleToggles />
+      <ImageButtonsContainer />
     </>
   )
 }
