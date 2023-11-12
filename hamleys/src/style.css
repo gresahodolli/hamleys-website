@@ -91,5 +91,14 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.card1 {
+  padding: 15px;
+  width: 10rem;
+  display: inline-block;
+  margin: 10px; 
+  text-align: center;
+}
 
-
+.card1:hover {
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Purple shadow effect */
+}

@@ -7,6 +7,7 @@ import MultipleToggles from './components/MultipleToggles'
 import ImageButtonsContainer from './components/ImageButtonsContainer'
 import ShopByAge from './components/ShopByAge'
 import FavoriteCategories from './components/FavoriteCategories'
+import HamleysTopToys from './components/HamleysTopToys'
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <ImageButtonsContainer />
       <ShopByAge />
       <FavoriteCategories />
+      <HamleysTopToys />
     </>
   )
 }
