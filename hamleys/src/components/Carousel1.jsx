@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/CarouselStyle.css'
 
 const CarouselComponent = () => {
   const carouselData = [
@@ -24,6 +25,8 @@ const CarouselComponent = () => {
     position: 'relative',
     backgroundColor: '#ddd',
     padding: '10px',
+    marginTop: '85px', 
+    marginBottom:'25px'
   };
 
   const itemStyle = {
@@ -46,7 +49,7 @@ const CarouselComponent = () => {
   };
 
   return (
-    <div style={containerStyle}>
+    <div className="carousel-container" style={containerStyle}>
       <Carousel>
         {carouselData.map((item, index) => (
           <Carousel.Item key={index} style={itemStyle}>
