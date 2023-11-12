@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+.double-navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #6f0000;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.first-row, .second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+}
+
+.dropdown-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu ul {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.dropdown-menu:hover ul {
+  display: block;
+}
+
+.second-row:hover {
+  background-color: #ffffff; /* Change the background color on hover */
+ color: #6f0000;
+}
