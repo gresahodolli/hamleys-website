@@ -1,4 +1,6 @@
-/* Navbar.css */
+.navbar-container {
+  z-index: 0; 
+}
 
 .double-navbar {
   display: flex;
