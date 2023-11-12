@@ -3,7 +3,7 @@ import './styles/NavbarStyle.css';
 
 const Navbar = () => {
     const [logoSize, setLogoSize] = useState({ width: '100px', height: '50px' });
-    const [logoSrc, setLogoSrc] = useState('https://e7.pngegg.com/pngimages/761/47/png-clipart-hamleys-regent-street-trafford-centre-retail-logo-lakeside-love-miscellaneous.png');
+    const [logoSrc, setLogoSrc] = useState('https://hamleys.co.za/wp-content/uploads/2021/12/cropped-logo-4-2.png');
 
     const handleLogoHover = () => {
         setLogoSrc('https://upload.wikimedia.org/wikipedia/commons/3/38/Hamleys_logo.png');
