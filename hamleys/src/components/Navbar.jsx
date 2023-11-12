@@ -2,18 +2,24 @@ import React, { useState } from 'react';
 import './styles/NavbarStyle.css';
 
 const Navbar = () => {
-    const [logoSize, setLogoSize] = useState({ width: '100px', height: '50px' });
-    const [logoSrc, setLogoSrc] = useState('https://hamleys.co.za/wp-content/uploads/2021/12/cropped-logo-4-2.png');
+  const [logo, setLogo] = useState({
+    src: 'https://hamleys.co.za/wp-content/uploads/2021/12/cropped-logo-4-2.png',
+    size: { width: '100px', height: '50px' }
+  });
 
-    const handleLogoHover = () => {
-        setLogoSrc('https://upload.wikimedia.org/wikipedia/commons/3/38/Hamleys_logo.png');
-        setLogoSize({ width: '200px', height: '200px' }); 
-    };
+  const handleLogoHover = () => {
+    setLogo({
+      src: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Hamleys_logo.png',
+      size: { width: '145px', height: '60px' }
+    });
+  };
 
-    const handleLogoLeave = () => {
-        setLogoSrc('https://hamleys.co.za/wp-content/uploads/2021/12/cropped-logo-4-2.png');
-        // setLogoSize({ width: '100px', height: '50px' });
-    };
+  const handleLogoLeave = () => {
+    setLogo({
+      src: 'https://hamleys.co.za/wp-content/uploads/2021/12/cropped-logo-4-2.png',
+      size: { width: '100px', height: '50px' }
+    });
+  };
 
   return (
     <div className="double-navbar">
@@ -21,10 +27,10 @@ const Navbar = () => {
       <div className="first-row">
         <div className="left-links">
           <ul>
-          <li><i className="bi bi-flag"></i> Great Britain </li>
-          <li><i className="bi bi-geo-alt"></i> Find a store</li>
-          <li><i className="bi bi-calendar"></i> What's on </li>
-          </ul> 
+            <li><i className="bi bi-flag"></i> Great Britain </li>
+            <li><i className="bi bi-geo-alt"></i> Find a store</li>
+            <li><i className="bi bi-calendar"></i> What's on </li>
+          </ul>
         </div>
         <div className="right-links">
           <ul>
@@ -37,9 +43,9 @@ const Navbar = () => {
       {/* Second Row */}
       <div className="second-row" onMouseEnter={handleLogoHover} onMouseLeave={handleLogoLeave}>
         <div className="logo-container">
-          <img src={logoSrc} alt="Logo" className="logo-image" />
+          <img src={logo.src} alt="Logo" className="logo-image" style={logo.size} />
         </div>
-        <div className="dropdown-menu">
+        <div className="other-items-nav">
           <ul>
             <li>Shop toys</li>
             <li>Christmas</li>
