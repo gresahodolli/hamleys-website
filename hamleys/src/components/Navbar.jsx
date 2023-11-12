@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleLogoHover = () => {
     setLogo({
       src: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Hamleys_logo.png',
-      size: { width: '200px', height: '200px' }
+      size: { width: '150px', height: '65px' }
     });
   };
 
