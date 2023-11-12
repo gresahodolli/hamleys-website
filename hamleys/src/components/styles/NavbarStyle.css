@@ -1,0 +1,96 @@
+/* Navbar.css */
+
+.double-navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #6f0000;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.first-row {
+  height: 30px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+  position: relative;
+}
+
+.dropdown-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.dropdown-menu:hover ul {
+  display: block;
+}
+
+.second-row:hover {
+  background-color: #ffffff;
+  color: #6f0000;
+}
+
+.dropdown-menu ul .dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #555;
+}
+
+.dropdown-menu ul li:hover .dropdown {
+  display: block;
+}
+
+img {
+  margin-left: 20px;
+  transition: width 0.3s, height 0.3s; /* Add a transition for a smoother effect */
+}
+
+.logo-container .logo-image {
+  transition: transform 0.9s; /* Add a transition for a smoother effect */
+}
+
+.second-row .logo-container .logo-image {
+  width: 100px; 
+  height: 50px; 
+}
+
+.second-row:hover .logo-container .logo-image {
+  width: 145px; 
+  height: 60px;
+  margin-left: -3px;
+  margin-top: -5px
+}
