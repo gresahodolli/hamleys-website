@@ -46,20 +46,24 @@ const Navbar = () => {
           <img src={logo.src} alt="Logo" className="logo-image" style={logo.size} />
         </div>
         <div className="other-items-nav">
-          <ul>
-            <li>Shop toys</li>
-            <li>Christmas</li>
-            <li>By Age</li>
-            <li>By brand</li>
-            <li>Gaming</li>
-            <li>
-              Black Friday
-              <ul className="dropdown">
-                <li>Deal 1</li>
-                <li>Deal 2</li>
-              </ul>
-            </li>
-          </ul>
+        <ul class="main-menu">
+          <li>Shop toys</li>
+          <li>Christmas</li>
+          <li>By Age</li>
+          <li>By brand</li>
+          <li>Gaming
+            <ul class="dropdown">
+              <li>Game 1</li>
+              <li>Game 2</li>
+            </ul>
+          </li>
+          <li>Black Friday
+            <ul class="dropdown">
+              <li>Deal 1</li>
+              <li>Deal 2</li>
+            </ul>
+          </li>
+        </ul>
         </div>
       </div>
     </div>
