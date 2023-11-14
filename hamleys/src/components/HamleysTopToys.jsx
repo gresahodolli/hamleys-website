@@ -22,7 +22,7 @@ const h1Style = {
   fontWeight: 'bold',
   color: '#333',
   padding: '20px',
-  marginTop: '20px',
+  marginTop: '60px',
   marginBottom: '1px',
 };
 

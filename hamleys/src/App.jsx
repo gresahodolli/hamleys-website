@@ -8,6 +8,7 @@ import ImageButtonsContainer from './components/ImageButtonsContainer'
 import ShopByAge from './components/ShopByAge'
 import FavoriteCategories from './components/FavoriteCategories'
 import HamleysTopToys from './components/HamleysTopToys'
+import FavouriteBrands from './components/FavouriteBrands';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <ShopByAge />
       <FavoriteCategories />
       <HamleysTopToys />
+      <FavouriteBrands />
     </>
   )
 }
