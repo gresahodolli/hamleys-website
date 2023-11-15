@@ -9,7 +9,9 @@ import ShopByAge from './components/ShopByAge'
 import FavoriteCategories from './components/FavoriteCategories'
 import HamleysTopToys from './components/HamleysTopToys'
 import FavouriteBrands from './components/FavouriteBrands';
+import BestSelling from './components/BestSelling';
 import LegoStore from './components/LegoStore';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
       <FavoriteCategories />
       <HamleysTopToys />
       <FavouriteBrands />
+      <BestSelling />
       <LegoStore />
     </>
   )
