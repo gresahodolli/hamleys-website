@@ -13,6 +13,7 @@ import BestSelling from './components/BestSelling';
 import LegoStore from './components/LegoStore';
 import FavoriteCharacters from './components/FavoriteCharacters'
 import GiftFinder from './components/GiftFinder'
+import FinestToys from './components/FinestToys'
 
 
 
@@ -35,6 +36,7 @@ function App() {
       <LegoStore />
       <FavoriteCharacters />
       <GiftFinder />
+      <FinestToys />
     </>
   )
 }
