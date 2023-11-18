@@ -1,0 +1,49 @@
+.newsletter-container {
+    text-align: center;
+    max-width: 1800px;
+    max-height: '900px';
+    margin: 0 auto;
+    background-color: red;
+    padding: 0 100px; 
+    margin-top: 30px;
+  }
+  .centered-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .newsletter-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .email-label {
+    display: block;
+    margin-bottom: 8px; 
+  }
+  
+  .email-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+    
+  }
+  
+  .disclaimer-text {
+    font-size: 12px;
+  }
+  /* Your existing styles for .newsletter-container go here */
+
+.social-icons {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .icon {
+    font-size: 36px; /* Adjust the size based on your design */
+    margin-right: 15px; /* Adjust the spacing between icons */
+    color: #fff; /* Adjust the color based on your design */
+  }
+
+  
+  

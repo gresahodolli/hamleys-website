@@ -5,7 +5,7 @@ import '../style.css'
 function FinestToys() {
   return (
     <div style={{ display: 'flex' }}>
-      <div style={{ flex: 1, marginRight: '20px', marginTop:'50px' }}>
+      <div style={{ flex: 1,marginLeft:'60px', marginRight: '20px', marginTop:'50px' }}>
         <img src={photo} alt="Toy Image" style={{ width: '600px', height: '400px' }} />
       </div>
       <div style={{ flex: 1, textAlign: 'right',marginTop:'50px',marginRight:'150px' }}>
