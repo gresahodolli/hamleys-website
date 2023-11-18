@@ -15,6 +15,7 @@ import FavoriteCharacters from './components/FavoriteCharacters'
 import GiftFinder from './components/GiftFinder';
 import FinestToys from './components/FinestToys'
 import EmailSubmit from './components/EmailSubmit';
+import Footer from './components/Footer'
 
 
 
@@ -38,6 +39,7 @@ function App() {
       <GiftFinder />
       <FinestToys />
       <EmailSubmit />
+      <Footer />
     </>
   )
 }
