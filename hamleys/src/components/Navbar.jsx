@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import './styles/NavbarStyle.css';
+import LoginSignup from './LoginSignup';
 
 const Navbar = () => {
   const [logo, setLogo] = useState({
     src: 'https://hamleys.co.za/wp-content/uploads/2021/12/cropped-logo-4-2.png',
     size: { width: '100px', height: '50px' }
   });
+
+  const [showLoginSignup, setShowLoginSignup] = useState(false);
+
+  const handleLoginSignupToggle = () => {
+    setShowLoginSignup(!showLoginSignup);
+  };
 
   const handleLogoHover = () => {
     setLogo({
@@ -35,7 +42,12 @@ const Navbar = () => {
         <div className="right-links">
           <ul>
             <li><i className="bi bi-truck"></i> Track Order Shipment</li>
-            <li><i className="bi bi-emoji-laughing"></i> Sign In/Register</li>
+            <li>
+              {/* Use a button to toggle the LoginSignup component */}
+              <button className="signup-button" onClick={handleLoginSignupToggle}>
+                <i className="bi bi-emoji-laughing"></i> Sign In/Register
+              </button>
+            </li>
             <li><i className="bi bi-bag"></i> My Bag</li>
           </ul>
         </div>
@@ -169,6 +181,7 @@ const Navbar = () => {
         </ul>
         </div>
       </div>
+      {showLoginSignup && <LoginSignup onClose={() => setShowLoginSignup(false)} />}
     </div>
   );
 };
