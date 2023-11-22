@@ -16,6 +16,8 @@ import GiftFinder from './components/GiftFinder';
 import FinestToys from './components/FinestToys'
 import EmailSubmit from './components/EmailSubmit';
 import Footer from './components/Footer'
+//import LoginSignup from './components/LoginSignup'
+
 
 
 
@@ -40,6 +42,8 @@ function App() {
       <FinestToys />
       <EmailSubmit />
       <Footer />
+      {/* <LoginSignup /> */}
+      
     </>
   )
 }
